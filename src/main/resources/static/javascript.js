@@ -5,7 +5,7 @@ document.getElementById('btn-get-answer').addEventListener('click', getInfo);
 
 
 async function getInfo() {
-    const URL = `${SERVER_URL}animal?question= + ${document.getElementById('the-question').value}`
+    const URL = `${SERVER_URL}animal?about= + ${document.getElementById('the-question').value}`
     const spinner = document.getElementById('spinner3');
     const result3 = document.getElementById('result3');
     result3.innerText = ""

@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //Denne klasse er generet ud fra playground View Code i ChatGPT, copy/paste in i ChatGPT
@@ -13,7 +14,7 @@ import java.util.List;
 public class ChatRequest {
 
     private String model;
-    private List<Message> messages;
+    private List<Message> messages = new ArrayList<>();
     private double temperature;
     private int max_tokens;
     private double top_p;

@@ -48,7 +48,7 @@ public class OpenAiService {
 
     //parametre her under er def i endpoint the completion object i chatGPT, se link ovenover.
     public final static String URL = "https://api.openai.com/v1/chat/completions";
-    public final static String MODEL = "gpt-4.0";
+    public final static String MODEL = "gpt-3.5-turbo";
     public final static double TEMPERATURE = 0.8;
     public final static int MAX_TOKEN = 300;
     public final static double FREQUENCY_PENALTY = 0.0;
